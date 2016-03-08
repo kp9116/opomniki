@@ -39,7 +39,7 @@ window.addEventListener('load', function() {
 			cas--;
 			casovnik.innerHTML = cas;
 			if(cas<=0){
-				var naziv = document.querySelector(".naziv_opomnika").innerHTML;
+				var naziv = opomnik.querySelector(".naziv_opomnika").innerHTML;
 				var izbris = document.getElementsByClassName("opomnik");
 				alert("Opomnik! \n\nZadolžitev "+  naziv +" je potekla!");
 				izbris[i].parentNode.removeChild(izbris[i]);
